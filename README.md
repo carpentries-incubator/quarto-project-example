@@ -17,7 +17,14 @@ It requires the following packages to run analysis code:
 - stringi 1.4.6
 - BayesFactor 0.9.12-4.2.
 - patchwork 1.0.0
-
+  
+And the additional packages to render the R Markdown (.rmd) paper:
+- bookdown
+- tidyverse
+- knitr
+- rticles
+- rprojroot
+  
 The structure of the directory is:
 
 root:

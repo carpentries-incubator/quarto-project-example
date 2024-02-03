@@ -1,55 +1,47 @@
-# Reproducible Publications with Rstudio (Project Example)
+# Project Example for: Introduction to Reproducible Publications with Quarto Workshop
 
-Attention: This is NOT the lesson repository. This is the GitHub repository for the project example used in the [Introduction to Reproducible Publications with Rstudio Workshop](https://github.com/carpentries-incubator/Reproducible-Publications-with-RStudio). Learners will be required to download the project example in order to follow along. 
-Our example uses an adapted version of the data paper: Nitsch, F. J., Sellitto, M., & Kalenscher, T. (2021). The effects of acute and chronic stress on choice consistency. Psychoneuroendocrinology, 131, 105289. https://doi.org/10.1016/j.psyneuen.2021.105289. The data paper along with its underlying data publicly available at: https://osf.io/6mvq7 were adapted and used for educational purposes with authors' permission.
+*Attention!* This is NOT the lesson repository. This is the GitHub repository for the project example used in the [Introduction to Reproducible Publications with Quarto](https://github.com/UCSBCarpentry/Reproducible-Publications-with-RStudio-Quarto) **FIXME: UPDATE LINK WHEN PR TO INCUBATOR IS COMPLETED"**. Learners will be required to download the project example in order to follow along. 
+
+**The project example folder is a simplified version of the original project available at: https://osf.io/6mvq7.**
+
+Our example uses an adapted version of the data paper: Nitsch, F. J., Sellitto, M., & Kalenscher, T. (2021). The effects of acute and chronic stress on choice consistency. Psychoneuroendocrinology, 131, 105289. https://doi.org/10.1016/j.psyneuen.2021.105289. The data paper along with its underlying data publicly available at: https://osf.io/6mvq7 were adapted and used for educational purposes with the authors' permission.
 
 ------------------------------
-## README May 19 2022
+## README
 
-This directory contains the data and analysis scripts required
-to computationally reproduce the results and plots reported
-in "Nitsch, Sellitto & Kalenscher (2021). The effects
-of acute and chronic stress on choice consistency." Psychoneuroendocrinology.
+This directory contains the data and analysis scripts required to computationally reproduce some of the results and plots reported
+in "Nitsch, Sellitto & Kalenscher (2021). The effects of acute and chronic stress on choice consistency." Psychoneuroendocrinology that are used in this workshop.
 
-All provided code is written R (R version 4.0.0 (2020-04-24) -- "Arbor Day).
-It requires the following packages to run analysis code:
-- tidyverse 1.3.0
-- stringi 1.4.6
-- BayesFactor 0.9.12-4.2.
-- patchwork 1.0.0
-  
-And the additional packages to render the R Markdown (.rmd) paper:
-- bookdown
-- tidyverse
-- knitr
-- rticles
-- rprojroot
-  
+All provided code is written in R (R version 4.0.0 (2020-04-24) -- "Arbor Day") and should work with more recent versions. 
+It requires the following packages to run the analysis code:
+- tidyverse - 1.3.2
+- stringi - 1.7.8
+- bayesFactor - 0.9.12-4.5
+- patchwork - 1.1.3
+- usethis - 2.2.2 
+
 The structure of the directory is:
 
 root:
-- RStudio Project File
-- code #Contains all runnable R script files
-- data #Contains raw data
-    - foodchoice_data #Contains raw data from food choice task
-- output #Contain all generated output
-    - data #Contains preprocessed data
-    - plots #Contains all plots
-- paper
-    - source   # R Markdown paper file  
-    - output   # paper outputs
-    - bin   #Contains additional code for proper paper formatting (csl)
-- README.md
-- NitschEtAl2021.Rproj # R project file
-- LICENSE.md
-- CITATION.md
+
+- `Reproducible-Publications-with-RStudio-Example.Rproj` # RStudio Project File
+- `code` #Contains all runnable R script files
+- `data` 
+    - `processed`  # Contains processed data
+    - `raw`      # Contains raw data
+        - `foodchoice_data`  # Contains raw data from food choice task
+- `output` # Contain all generated output
+- `report`
+    - `DataPaper-ReproducibilityWorkshop_files`   # Rendered files  
+    - `fig`   # paper figures
+- `LICENSE.md`
+- `CITATION.md`
+- `README.md`
+- `_quarto.yml`
 
 To repeat the analyses, 
 1. Open the RStudio Project file.
 2. Open and run analyses scripts (in order)
-
-Note: data/foodchoice_budgetlines.csv is not required to run
-analysis scripts but is for information only.
 
 Graphic output is saved to output/plots
 Data output is saved to output/data
@@ -65,3 +57,5 @@ Enjoy!
 
 PS: For questions please email ucsbcarpentry (@) ucsb.edu.
 
+
+The `renv` branch has the same content as the `main` branch with the addition of having [renv](https://rstudio.github.io/renv/articles/renv.html) enabled for better reproducibility.

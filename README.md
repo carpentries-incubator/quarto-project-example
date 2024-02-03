@@ -1,6 +1,6 @@
-# Project Example for: Introduction to Reproducible Publications with Quarto Workshop
+# Project Example for the Workshop: Introduction to Reproducible Publications with Quarto Workshop
 
-*Attention!* This is NOT the lesson repository. This is the GitHub repository for the project example used in the [Introduction to Reproducible Publications with Quarto](https://github.com/UCSBCarpentry/Reproducible-Publications-with-RStudio-Quarto). Learners will be required to download the project example in order to follow along. 
+*Attention!* This is NOT the lesson repository. This is the GitHub repository for the project example used in the [Introduction to Reproducible Publications with Quarto](https://github.com/carpentries-incubator/reproducible-publications-quarto). Learners will be required to download the project example in order to follow along. 
 
 **The project example folder is a simplified version of the original project available at: https://osf.io/6mvq7.**
 

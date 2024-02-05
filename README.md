@@ -4,13 +4,13 @@
 
 **The project example folder is a simplified version of the original project available at: https://osf.io/6mvq7.**
 
-Our example uses an adapted version of the data paper: Nitsch, F. J., Sellitto, M., & Kalenscher, T. (2021). The effects of acute and chronic stress on choice consistency. Psychoneuroendocrinology, 131, 105289. https://doi.org/10.1016/j.psyneuen.2021.105289. The data paper along with its underlying data publicly available at: https://osf.io/6mvq7 were adapted and used for educational purposes with the authors' permission.
+Our example uses an adapted version of the data paper: Nitsch, F. J., Sellitto, M., & Kalenscher, T. (2021). The effects of acute and chronic stress on choice consistency. Psychoneuroendocrinology, 131, 105289. https://doi.org/10.1016/j.psyneuen.2021.105289. The data paper and its underlying data publicly available at [https://osf.io/6mvq7](https://osf.io/6mvq7) were adapted and used for educational purposes with the authors' permission.
 
 ------------------------------
 ## README
 
 This directory contains the data and analysis scripts required to computationally reproduce some of the results and plots reported
-in "Nitsch, Sellitto & Kalenscher (2021). The effects of acute and chronic stress on choice consistency." Psychoneuroendocrinology that are used in this workshop.
+in "Nitsch, Sellitto & Kalenscher (2021). The effects of acute and chronic stress on choice consistency." Psychoneuroendocrinology is used in this workshop.
 
 All provided code is written in R (R version 4.0.0 (2020-04-24) -- "Arbor Day") and should work with more recent versions. 
 It requires the following packages to run the analysis code:
@@ -41,13 +41,15 @@ root:
 
 To repeat the analyses, 
 1. Open the RStudio Project file.
-2. Open and run analyses scripts (in order)
+2. Open and run analysis scripts (in order)
 
 Graphic output is saved to output/plots
 Data output is saved to output/data
-Analysis results are saved in environment / printed to console
+Analysis results are saved in the environment / printed to the console
 Paper output is saved to paper/output
 paper/bin contains external files/code necessary for the proper formatting of the R Markdown paper output. 
+
+**Note:** The `renv` branch has the same content as the `main` branch with the addition of having [renv](https://rstudio.github.io/renv/articles/renv.html) enabled for better reproducibility.
 
 Please see citation.md for instructions on how to cite this workshop.
 
@@ -65,5 +67,3 @@ Contributors:
 * Greg Janee (gjanee)
 * Julien Brun (brunj7)
 * kristi Liu (kristi-sara)
-
-The `renv` branch has the same content as the `main` branch with the addition of having [renv](https://rstudio.github.io/renv/articles/renv.html) enabled for better reproducibility.

@@ -2,7 +2,7 @@
 
 *Attention!* This is NOT the lesson repository. This is the GitHub repository for the project example used in the [Introduction to Reproducible Publications with Quarto](https://github.com/UCSBCarpentry/Reproducible-Publications-with-RStudio-Quarto) **FIXME: UPDATE LINK WHEN PR TO INCUBATOR IS COMPLETED"**. Learners will be required to download the project example in order to follow along. 
 
-**The project example folder is a simplified version of the original project available at: https://osf.io/6mvq7.**
+**The project example folder is a simplified version of the original project available at: [https://osf.io/6mvq7](https://osf.io/6mvq7).**
 
 Our example uses an adapted version of the data paper: Nitsch, F. J., Sellitto, M., & Kalenscher, T. (2021). The effects of acute and chronic stress on choice consistency. Psychoneuroendocrinology, 131, 105289. https://doi.org/10.1016/j.psyneuen.2021.105289. The data paper along with its underlying data publicly available at: https://osf.io/6mvq7 were adapted and used for educational purposes with the authors' permission.
 
@@ -41,13 +41,15 @@ root:
 
 To repeat the analyses, 
 1. Open the RStudio Project file.
-2. Open and run analyses scripts (in order)
+2. Open and run analysis scripts (in order)
 
 Graphic output is saved to output/plots
 Data output is saved to output/data
-Analysis results are saved in environment / printed to console
+Analysis results are saved in the environment / printed to the console
 Paper output is saved to paper/output
 paper/bin contains external files/code necessary for the proper formatting of the R Markdown paper output. 
+
+The `renv` branch has the same content as the `main` branch with the addition of having [renv](https://rstudio.github.io/renv/articles/renv.html) enabled for better reproducibility.
 
 Please see citation.md for instructions on how to cite this workshop.
 
@@ -55,7 +57,13 @@ Please see License.md for instructions on how to re-use this material.
 
 Enjoy!
 
-PS: For questions please email ucsbcarpentry (@) ucsb.edu.
+PS: For questions, please email ucsbcarpentry (@) ucsb.edu.
 
+Contributors:
 
-The `renv` branch has the same content as the `main` branch with the addition of having [renv](https://rstudio.github.io/renv/articles/renv.html) enabled for better reproducibility.
+Renata Curty (rcurty)
+Torin White (torwhite)
+Ian Lessing (ilessing)
+Greg Janee (gjanee)
+Julien Brun (brunj7)
+kristi Liu (kristi-sara)

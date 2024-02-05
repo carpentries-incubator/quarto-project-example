@@ -57,5 +57,13 @@ Enjoy!
 
 PS: For questions please email ucsbcarpentry (@) ucsb.edu.
 
+Contributors:
+
+* Renata Curty (rcurty)
+* Torin White (torwhite)
+* Ian Lessing (ilessing)
+* Greg Janee (gjanee)
+* Julien Brun (brunj7)
+* kristi Liu (kristi-sara)
 
 The `renv` branch has the same content as the `main` branch with the addition of having [renv](https://rstudio.github.io/renv/articles/renv.html) enabled for better reproducibility.

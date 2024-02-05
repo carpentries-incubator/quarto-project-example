@@ -1,10 +1,10 @@
 # Project Example for: Introduction to Reproducible Publications with Quarto Workshop
 
-*Attention!* This is NOT the lesson repository. This is the GitHub repository for the project example used in the [Introduction to Reproducible Publications with Quarto](https://github.com/UCSBCarpentry/Reproducible-Publications-with-RStudio-Quarto) **FIXME: UPDATE LINK WHEN PR TO INCUBATOR IS COMPLETED"**. Learners will be required to download the project example in order to follow along. 
+*Attention!* This is NOT the lesson repository. This is the GitHub repository for the project example used in the [Introduction to Reproducible Publications with Quarto](https://github.com/carpentries-incubator/reproducible-publications-quarto)). Learners will be required to download the project example in order to follow along and complete challenges and exercises. 
 
 **The project example folder is a simplified version of the original project available at: [https://osf.io/6mvq7](https://osf.io/6mvq7).**
 
-Our example uses an adapted version of the data paper: Nitsch, F. J., Sellitto, M., & Kalenscher, T. (2021). The effects of acute and chronic stress on choice consistency. Psychoneuroendocrinology, 131, 105289. https://doi.org/10.1016/j.psyneuen.2021.105289. The data paper along with its underlying data publicly available at: https://osf.io/6mvq7 were adapted and used for educational purposes with the authors' permission.
+Our example uses an adapted version of the data paper: Nitsch, F. J., Sellitto, M., & Kalenscher, T. (2021). The effects of acute and chronic stress on choice consistency. Psychoneuroendocrinology, 131, 105289. https://doi.org/10.1016/j.psyneuen.2021.105289. The data paper and its underlying data were adapted and used for educational purposes with the authors' permission.
 
 ------------------------------
 ## README
